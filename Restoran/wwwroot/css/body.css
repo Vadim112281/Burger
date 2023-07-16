@@ -1,0 +1,192 @@
+﻿.cards-holder{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 349px;
+    
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    margin-right: 31px;
+    background-color: #fff;
+    margin-top: -80px;
+    padding: 10px 10px;
+}
+
+.card-image{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
+    margin-left: 108px;
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.card-title span{
+    color: #D67E35;
+    margin-left: 5px;
+}
+
+.card-desc{
+    text-align: center;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #656363;
+}
+
+.history{
+    margin-top: 166px;
+    padding-bottom: 200px;
+}
+
+.history-title{
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    width: 444px;
+    text-align: center;
+    margin-top: 21px;
+}
+.history-title span{
+    color: #D67E35;
+}
+
+.history-desc{
+    color: #656363;
+    font-size: 16px;
+    width: 444px;
+    text-align: center;
+}
+
+.history-number{
+    display: flex;
+    width: 444px;
+    justify-content: center;
+    margin-top:40px;
+    margin-left: 30px;
+}
+
+.number-item{
+    margin-right: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: #BC9060;
+}
+.number-item span{
+    display: block;
+    color:#000;
+}
+
+.history-images{
+    position: relative;
+}
+
+.history-holder{
+    display: flex;
+    justify-content: space-between;
+}
+
+.images-1{
+    position: absolute;
+    top: 4px;
+    left: -630px;
+}
+
+.images-2{
+    position: absolute;
+    top: -18px;
+    left: -265px;
+}
+
+.images-3{
+    position: absolute;
+    top: 272px;
+    left: -456px;
+}
+
+.black-block{
+    background-color: black;
+    padding: 80px 0;
+}
+
+.left-title{
+    color: #D67E35;
+    font-family: 'Tinos', serif;
+    font-size: 52px;
+    font-weight: 400;    
+    
+    margin-bottom: 20px;
+}
+
+.left-text{
+    font-weight: 700;
+    font-size: 24px;
+    color:#fff;
+}
+
+.right-btn{
+    background-color: #FF7400;
+    color:#fff;
+    text-decoration: none;
+    padding: 14px 18px ;
+    font-weight: 700;
+}
+
+.block-holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dishes-title{
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+    padding-top:132px;
+    margin-bottom: 90px;
+}
+.dishes-title span{
+    color: #D67E35;
+}
+
+.burgers{
+    display: flex;
+    justify-content: center;
+}
+
+.burger-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 29px;
+}
+
+.burgers-image{
+    margin-right: 20px;
+}
+
+.burger-text{
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+
+.transition-fade{
+    transition: .10s;
+    opacity: 1;
+}
+html.is-animating .transition-fade{
+    opacity: 0;
+    transform: translateY(100px);
+}

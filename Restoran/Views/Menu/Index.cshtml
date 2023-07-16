@@ -1,0 +1,138 @@
+﻿
+
+@{
+   ViewData["Title"] = "Меню";
+}
+
+<body >
+
+<div class="header2">
+    <div class="container"> 
+        <div class="header-line">
+            <div class="header-logo">
+                <img src="~/lib/LOGO.png" alt="logo">
+            </div>
+                
+            <div class="nav">
+                <a class="nav-item" asp-controller="Home" asp-action="Index">ГОЛОВНА</a>
+                <a class="nav-item" asp-controller="Menu" asp-action="Index">МЕНЮ</a>
+                <a class="nav-item" asp-controller="About" asp-action="Index">ПРО НАС</a>
+                <a class="nav-item" asp-controller="Reservation" asp-action="Index">ЗАМОВЛЕННЯ</a>
+            </div>
+                
+            <div class="cart">
+                <a href="*">
+                    <img class="cart-img" src="lib/cart.png" alt="cart">
+                </a>
+            </div>
+                
+            <div class="phone">
+                <div class="phone-holder">
+                    <div class="phone-img">
+                        <img src="lib/phone.png"></img>
+                    </div>
+                    <div class="number"><a class="num" asp-controller="" asp-action="">+380-99-755-17-02</a></div>
+                </div>
+                    
+                <div class="phone-text">Зателефонуйте нам для <br> бронювання</div>
+            </div>
+                
+            <div class="btn">
+                <a class="button" asp-controller="Order" asp-action="Index" >Замовити бургер</a>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+<div class="menu">
+
+   <div class="container">
+      <div class="menu-title">Наше меню</div>
+   
+   
+       <div class="menu-items">
+                                  
+           <div class="menu-item">
+               <div class="menu-image">
+                   <img src="lib/menu-item.png" class="menu-img"/>
+                   <div class="price">
+                       <img src="lib/price.png" class="price-image" />
+                       <div class="price-120">
+                           $10
+                       </div>
+                   </div>
+               </div>
+                                      
+               <div class="menu-text">
+                   Міні гамбургер
+               </div>
+                                      
+               <div class="menu-subtext">
+                   Максимально малий і товстий <br> шматок м'яса
+               </div>
+                                      
+               <div class="menu-button">
+                   <a asp-controller="Order" asp-action="Index" class="menu-btn">Замовити</a>
+               </div>
+ 
+           </div>
+           
+           <div class="menu-item">
+               <div class="menu-image">
+                   <img src="lib/menu-item.png" class="menu-img"/>
+                   <div class="price">
+                       <img src="lib/price.png" class="price-image" />
+                       <div class="price-120">
+                           $20
+                       </div>
+                   </div>
+               </div>
+                                                 
+               <div class="menu-text">
+                   Середній гамбургер
+               </div>
+                                                 
+               <div class="menu-subtext">
+                   Максимально середній і товстий <br> шматок м'яса
+               </div>
+                                                 
+               <div class="menu-button">
+                   <a asp-controller="Order" asp-action="Index" class="menu-btn">Замовити</a>
+               </div>
+            
+           </div>
+           
+           <div class="menu-item">
+               <div class="menu-image">
+                   <img src="lib/menu-item.png" class="menu-img"/>
+                   <div class="price">
+                       <img src="lib/price.png" class="price-image" />
+                       <div class="price-120">
+                           $30
+                       </div>
+                   </div>
+               </div>
+                                                 
+               <div class="menu-text">
+                  Великий гамбургер
+               </div>
+                                                 
+               <div class="menu-subtext">
+                   Максимально товстий <br> шматок м'яса
+               </div>
+                                                 
+               <div class="menu-button">
+                   <a asp-controller="Order" asp-action="Index" class="menu-btn">Замовити</a>
+               </div>
+            
+           </div>
+           
+           
+       </div>
+    </div>
+</div>
+
+
+</body>
